@@ -4,6 +4,5 @@ def my_collect(array)
   while i < array.length
   collection << yield(array[i].upcase)
 end
-collection
 end
 
